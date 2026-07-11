@@ -114,25 +114,18 @@ docs/开发指南.md
 docs/使用说明.md
 docs/数据库初始化与适配说明.md
 docs/缺陷识别与摄像头模块说明.md
-docs/传感器与真实小车接入说明.md
-docs/AI智能体接入说明.md
 docs/测试说明.md
+docs/AGV任务管理模块详细技术说明/
+docs/AI助手使用说明.md
+docs/AI智能体接入说明.md
+docs/Dify启动与配置说明.md
+docs/IoT实时数据说明.md
+docs/任务执行流程说明.md
+docs/传感器与AIoT联动模块.md
+docs/传感器接入说明.md
+docs/前端页面使用说明.md
+docs/巡检任务管理说明.md
+docs/真实小车接入说明.md
+docs/车辆控制接口说明.md
 ```
 
-## 六、开源注意事项
-
-开源仓库中不应提交以下内容：
-
-```text
-node_modules/
-dist/
-coverage/
-.venv/
-target/
-logs/
-runs/
-.env
-application-local.yml
-```
-
-数据库密码、Dify API Key、摄像头账号密码、真实设备密钥等敏感信息应通过示例配置或环境变量方式提供，不应直接写入公开仓库。
